@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+:root{
+    font-size: 22px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: block;
+    background-color: rgb(155, 12, 12);
+    width: 0%;
+    height: 8px;
+}
+  
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.content-wrapper:first-child {
+  margin-top: 0px;
+}
+
+#second-page {
+  background: #f6f1f1;
+}
+
+
+
+
